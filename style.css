@@ -1,0 +1,410 @@
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-image: url('images/background.jpg'); /* Path to your background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center;
+    color: #ffffff;
+}
+
+.logo img {
+    height: 50px; /* Adjust height of the logo as needed */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Background color of the header */
+    padding: 20px ;
+    display: flex; /* Use flexbox to control layout */
+    justify-content: space-between; /* Items are spaced evenly along the header */
+    align-items: center; /* Align items vertically in the center */
+}
+
+.logo img {
+    height: 50px; /* Adjust height of the logo as needed */
+    padding-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff; /* Color of the navigation links */
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+main {
+    text-align: center; /* Center-align the text within the main element */
+    text-wrap: balance;
+    font-size: large;
+    
+}
+
+.main-content {
+    max-width: 600px; /* Adjust the maximum width of the content as needed */
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+footer {
+    background-color:rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 0;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.4em; /* Adjust paragraph font size as needed */
+    line-height: 1.5; /* Adjust paragraph line height as needed */
+    color:#ffffff; /* Change to desired paragraph text color */
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color:rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.activity {
+    background-color:rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.activity img {
+    width: 100%; /* Ensure the image fills the container */
+    height: 300px; /* Set a fixed height for all images */
+    object-fit: cover; /* Maintain aspect ratio and crop if necessary */
+    border-radius: 5px 5px 0 0; /* Optional: Add rounded corners */
+}
+
+
+.activity h2 {
+    margin-top: 0;
+}
+
+.activity p {
+    margin-bottom: 0;
+}
+
+footer {
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Additional styles specific to the Event page */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid layout */
+    gap: 20px; /* Gap between grid items */
+    padding: 20px; /* Padding around the grid container */
+}
+
+.event {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    overflow: hidden; /* Ensure images don't overflow the event box */
+}
+
+.event img {
+    width: 100%; /* Ensure images fill their container */
+    height: 400px; /* Set a fixed height for all images */
+    object-fit: cover; /* Maintain aspect ratio and crop if necessary */
+    border-radius: 5px 5px 0 0; /* Add rounded corners to the top */
+}
+
+
+.event-details {
+    padding: 20px;
+}
+
+.event h2 {
+    margin-top: 0;
+}
+
+.event p {
+    margin-bottom: 10px;
+}
+
+
+/* CSS for the grid container */
+.distribution-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+/* CSS for food distribution section */
+.food-distribution {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.food-distribution img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* CSS for cloth distribution section */
+.cloth-distribution {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.cloth-distribution img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* CSS for support form section */
+.support-form {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding box shadow */
+}
+
+.support-form input[type="text"],
+.support-form input[type="email"],
+.support-form textarea {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing:border-box;
+}
+
+.support-form textarea {
+    height: 150px;
+}
+
+.support-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.support-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+@media screen and (max-width:1024px) {
+
+    .about-img .about-exp span {
+        font-size: 20px;
+        margin: 140px -80px;
+        transform: rotate(-90deg);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .toggle-btn {
+        display: block;
+    }
+
+    .search-icon {
+        margin: 10px;
+        font-size: 1rem;
+    }
+
+    .nav-options {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        line-height: 1.5rem;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+    }
+
+    .nav-options.show {
+        display: flex;
+        margin: 66px -30px 0px 0px;
+    }
+
+    .footer-main {
+        flex-direction: column;
+        padding: 4rem 2rem;
+    }
+
+    .logo {
+        max-width: 150px;
+        max-height: 75px;
+    }
+
+    .listing-item .listing-img img {
+        max-height: 600px;
+    }
+
+    .hero-text {
+        position: absolute;
+        top: 60%;
+        left: 5%;
+        /* Adjust this value for mobile view */
+        transform: translate(0%, -50%);
+        max-width: 90%;
+        /* Adjust the maximum width of the text for mobile view */
+        font-size: 18px;
+        line-height: 1.5rem;
+    }
+}
+
+@media screen and (max-width:992px) {
+
+    .product-main,
+    .Inner_section,
+    .contact-main {
+        flex-direction: column;
+    }
+
+    .about_text {
+        margin-left: 0px;
+        line-height: 25px;
+        font-size: 14px;
+
+    }
+
+    .extra-text {
+        margin-left: 0px;
+        line-height: 25px;
+        font-size: 14px;
+
+    }
+
+    .about-img .about-exp {
+        width: 100%;
+    }
+
+    .about-img .about-exp span {
+        font-size: 20px;
+        margin: 130px -80px;
+    }
+
+    .abt-img {
+        padding: 30px 25px 30px 40px;
+    }
+
+    .about-img .about-exp span {
+        font-size: 18px;
+        margin: 180px -90px;
+        transform: rotate(-90deg);
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .hero-section img {
+        height: 300px;
+    }
+
+    .hero-text {
+        font-size: 14px;
+        top: 70%;
+    }
+}
